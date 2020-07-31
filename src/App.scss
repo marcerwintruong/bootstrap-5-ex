@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "NunitoSans-Bold";
+  src: url("./fonts/NunitoSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NunitoSans-Light";
+  src: url("./fonts/NunitoSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NunitoSans-ExtraLightItalic";
+  src: url("./fonts/NunitoSans-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NunitoSans-Italic";
+  src: url("./fonts/NunitoSans-Italic.ttf") format("truetype");
+}
+
+li {
+  margin: 6px;
+  font-size: 1.8vh;
+}
+
+header {
+  height: 50px;
+  font-family: "NunitoSans-Light";
+  border-bottom: 1px solid #000;
+}
+
+main {
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+footer {
+  border-top: 1px solid #000;
+  height: 50px;
+
+  & > div:first-child {
+    height: 50%;
+    font-family: "NunitoSans-Bold";
+
+    ul {
+      border-bottom: 1px solid #000;
+    }
+  }
+
+  & > div:last-child {
+    height: 50%;
+    font-family: "NunitoSans-Italic";
+  }
+}
