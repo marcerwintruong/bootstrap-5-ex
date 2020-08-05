@@ -14,26 +14,26 @@ function App() {
         </ul>
       </header>
 
-      <main className="mx-0 px-0 container-fluid">
-        <div className="d-flex">
+      <main className="mx-0 px-0 h-100">
+        <div className="h-50 d-flex">
           <img
             className="col-6"
-            src="/static/imgs/pexels-burst.jpg"
+            src="/bootstrap-5-ex/static/imgs/pexels-burst.jpg"
             alt=""
             title=""
           />
           <img
             className="col-6"
-            src="/static/imgs/pexels-daria-shevtsova.jpg"
+            src="/bootstrap-5-ex/static/imgs/pexels-daria-shevtsova.jpg"
             alt=""
             title=""
           />
         </div>
 
-        <div className="d-flex">
+        <div className="h-50 d-flex">
           <img
             className="col"
-            src="/static/imgs/pexels-shvets-anna.jpg"
+            src="/bootstrap-5-ex/static/imgs/pexels-shvets-anna.jpg"
             alt=""
             title=""
           />
